@@ -1,0 +1,35 @@
+#container {
+    background-color: white;
+    color: cyan;
+    height: 650px;
+    width: 650px;
+    outline: 2px solid black;
+    padding: none;
+    margin: none    ;
+}
+
+.grid {
+    margin: none;
+    padding: none;
+    border: none;
+    outline: 1px solid black;
+    display: inline-block;
+}
+
+.button {  
+    background-color: magenta;
+    color: black;
+    font-weight: bolder;
+    margin: 4px 2px;
+    padding: 15px 30px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border: magenta solid   3px;
+    display: inline-block;
+}
+.button:hover {  
+    background-color:purple;
+    border-radius: 10px;
+    border: purple solid   3px;
+    color: black;
+}
